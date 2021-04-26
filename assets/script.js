@@ -2,6 +2,7 @@
 
 // const apiKey = {your apikey}
 
+// Gets city input and puts into local storage
 function mySave(){
     const cityInput = document.getElementById("city").value;
     localStorage.setItem("city", cityInput); // {city: 'whatever the user entered'}
@@ -16,4 +17,12 @@ function mySave(){
         document.body.appendChild(p);
 
     });
+    
 }
+
+
+
+// function currentWeather(){
+    
+
+// }
